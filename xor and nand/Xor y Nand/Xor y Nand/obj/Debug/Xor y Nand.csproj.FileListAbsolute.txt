@@ -1,0 +1,7 @@
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\bin\Debug\Xor y Nand.exe.config
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\bin\Debug\Xor y Nand.exe
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\bin\Debug\Xor y Nand.pdb
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\obj\Debug\Xor y Nand.csprojAssemblyReference.cache
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\obj\Debug\Xor y Nand.csproj.CoreCompileInputs.cache
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\obj\Debug\Xor y Nand.exe
+C:\Users\djcje\OneDrive\Escritorio\xor and nand\Xor y Nand\Xor y Nand\obj\Debug\Xor y Nand.pdb
