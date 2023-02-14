@@ -1,0 +1,168 @@
+ Console.WindowHeight = 35;
+            Console.WindowWidth = 65;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.Title = "Calculo en ohmios";
+            string p1, p2, p3, p4;
+            double r1, r2, r3, r4, total1, total2;
+
+            Console.WriteLine("\t POSICION EN LA QUE SE ENCUENTRA EL CABLE");
+            Console.WriteLine("\t======================================");
+            Console.WriteLine("\t Colores de cables");
+            Console.WriteLine("\t negro");
+            Console.WriteLine("\t marron");
+            Console.WriteLine("\t rojo");
+            Console.WriteLine("\t naranja");
+            Console.WriteLine("\t amarillo");
+            Console.WriteLine("\t verde");
+            Console.WriteLine("\t azul");
+            Console.WriteLine("\t violeta");
+            Console.WriteLine("\t gris");
+            Console.WriteLine("\t blanco");
+            Console.WriteLine("\t dorado");
+            Console.WriteLine("\t plateado");
+            Console.WriteLine("\t sin banda");
+            Console.WriteLine("\t======================================");
+            Console.Write("\n");
+            Console.Write("\tDIGITE COLOR DE CABLE DE PRIMERA POSICION:   ");
+            p1 = Console.ReadLine();
+            Console.Write("\tDIGITE COLOR DE CABLE DE SEGUNDA POSICION:   ");
+            p2 = Console.ReadLine();
+            Console.Write("\tDIGITE COLOR DE CABLE DE TERCERA POSICION:   ");
+            p3 = Console.ReadLine();
+            Console.Write("\tDIGITE COLOR DE CABLE DE CUARTA POSICION:    ");
+            p4 = Console.ReadLine();
+            Console.Write("\n");
+
+            switch (p1)
+            {
+                case "negro":
+                    Console.WriteLine("0");
+                    break;
+                case "marron":
+                    Console.WriteLine("\t 1");
+                    break;
+                case "rojo":
+                    Console.WriteLine("\t 2");
+                    break;
+                case "naranja":
+                    Console.WriteLine("\t 3");
+                    break;
+                case "amarillo":
+                    Console.WriteLine("\t 4");
+                    break;
+                case "verde":
+                    Console.WriteLine("\t 5");
+                    break;
+                case "azul":
+                    Console.WriteLine("\t 6");
+                    break;
+                case "violeta":
+                    Console.WriteLine("\t 7");
+                    break;
+                case "gris":
+                    Console.WriteLine("\t 8");
+                    break;
+                case "blanco":
+                    Console.WriteLine("\t 9");
+                    break;
+            }
+
+            switch (p2)
+            {
+                case "negro":
+                    Console.WriteLine("\t 0");
+                    break;
+                case "marron":
+                    Console.WriteLine("\t 1");
+                    break;
+                case "rojo":
+                    Console.WriteLine("\t 2");
+                    break;
+                case "naranja":
+                    Console.WriteLine("\t 3");
+                    break;
+                case "amarillo":
+                    Console.WriteLine("\t 4");
+                    break;
+                case "verde":
+                    Console.WriteLine("\t 5");
+                    break;
+                case "azul":
+                    Console.WriteLine("\t 6");
+                    break;
+                case "violeta":
+                    Console.WriteLine("\t 7");
+                    break;
+                case "gris":
+                    Console.WriteLine("\t 8");
+                    break;
+                case "blanco":
+                    Console.WriteLine("\t 9");
+                    break;
+            }
+
+            switch (p3)
+            {
+                case "negro":
+                    Console.WriteLine("\t x 1");
+                    break;
+                case "marron":
+                    Console.WriteLine("\t x 10");
+                    break;
+                case "rojo":
+                    Console.WriteLine("\t x 100");
+                    break;
+                case "naranja":
+                    Console.WriteLine("\t x 1000");
+                    break;
+                case "amarillo":
+                    Console.WriteLine("\t x 10000");
+                    break;
+                case "verde":
+                    Console.WriteLine("\t x 100000");
+                    break;
+                case "azul":
+                    Console.WriteLine("\t x 1000000");
+                    break;
+                case "violeta":
+                    Console.WriteLine("\t x 10000000");
+                    break;
+                case "gris":
+                    Console.WriteLine("\t x 100000000");
+                    break;
+                case "blanco":
+                    Console.WriteLine("\t x 1000000000");
+                    break;
+                case "dorado":
+                    Console.WriteLine("\t x 0,1");
+                    break;
+                case "plateado":
+                    Console.WriteLine("\t x 0,001");
+                    break;
+            }
+
+            switch (p4)
+            {
+                case "marron":
+                    Console.WriteLine("\t +/- 1%");
+                    break;
+                case "rojo":
+                    Console.WriteLine("\t +/- 2%");
+                    break;
+                case "dorado":
+                    Console.WriteLine("\t +/- 5%");
+                    break;
+                case "plateado":
+                    Console.WriteLine("\t +/- 10%");
+                    break;
+                case "sin banda":
+                    Console.WriteLine("\t +/- 20%");
+                    break;
+            }
+            Console.Write("\n");
+
+            
+
+            Console.ReadKey();
